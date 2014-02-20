@@ -1,0 +1,48 @@
+{
+  "name": "broccoli-traceur",
+  "version": "0.0.0",
+  "description": "Traceur is a JavaScript.next to JavaScript-of-today compiler",
+  "license": "MIT",
+  "repository": "sindresorhus/broccoli-traceur",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "traceur",
+    "rewriting",
+    "transformation",
+    "syntax",
+    "codegen",
+    "desugaring",
+    "javascript",
+    "ecmascript",
+    "language",
+    "es5",
+    "es6",
+    "ES.next",
+    "harmony",
+    "compiler",
+    "transpiler"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.0.1",
+    "traceur": "^0.0.24"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "broccoli": "^0.2.0",
+    "rimraf": "^2.2.6"
+  }
+}
