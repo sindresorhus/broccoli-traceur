@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-traceur [![Build Status](https://travis-ci.org/sindresorhus/broccoli-traceur.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-traceur)
+# [broccoli](https://github.com/joliss/broccoli)-traceur [![Build Status](https://travis-ci.org/sindresorhus/broccoli-traceur.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-traceur)
 
 > [Traceur](https://github.com/google/traceur-compiler) is a JavaScript.next to JavaScript-of-today compiler
 
@@ -7,12 +7,12 @@
 
 ## Install
 
-```
-npm install --save broccoli-traceur
+```bash
+$ npm install --save broccoli-traceur
 ```
 
 
-## Example
+## Usage
 
 ```js
 var traceur = require('broccoli-traceur');
@@ -31,4 +31,4 @@ See the Traceur [options](https://github.com/google/traceur-compiler/issues/584)
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
