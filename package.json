@@ -37,12 +37,12 @@
     "transpiler"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.0.1",
-    "traceur": "^0.0.24"
+    "broccoli-filter": "^0.1.6",
+    "traceur": "^0.0.32"
   },
   "devDependencies": {
+    "broccoli": "^0.7.2",
     "mocha": "*",
-    "broccoli": "^0.2.0",
     "rimraf": "^2.2.6"
   }
 }
