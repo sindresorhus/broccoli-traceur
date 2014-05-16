@@ -38,10 +38,10 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "traceur": "^0.0.39"
+    "traceur": "0.0.41"
   },
   "devDependencies": {
-    "broccoli": "^0.11.0",
+    "broccoli": "^0.12.0",
     "mocha": "*",
     "rimraf": "^2.2.6"
   }
