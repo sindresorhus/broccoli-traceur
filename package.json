@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "traceur": "0.0.41"
+    "traceur": "0.0.43"
   },
   "devDependencies": {
     "broccoli": "^0.12.0",
