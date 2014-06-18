@@ -18,9 +18,13 @@ TraceurFilter.prototype.extensions = ['js'];
 TraceurFilter.prototype.targetExtension = 'js';
 
 TraceurFilter.prototype.processString = function (str) {
-  var result = traceur.compile(str, this.options);
-  if(result.errors.length) { throw result.errors[0] };
-  return result.js;
+	var result = traceur.compile(str, this.options);
+
+	if (result.errors && result.errors.length > 0) {
+		throw result.errors[0];
+	}
+
+	return result.js;
 };
 
 module.exports = TraceurFilter;
