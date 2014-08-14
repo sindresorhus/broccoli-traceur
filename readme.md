@@ -7,7 +7,7 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-traceur
 ```
 
@@ -31,4 +31,4 @@ See the Traceur [options](https://github.com/google/traceur-compiler/issues/584)
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
