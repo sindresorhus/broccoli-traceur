@@ -20,13 +20,12 @@ TraceurFilter.prototype.targetExtension = 'js';
 
 TraceurFilter.prototype.processString = function (str, relativePath) {
 	var options = objectAssign({}, this.options, {filename: relativePath});
-	var result = traceur.compile(str, options);
 
-	if (result.errors && result.errors.length > 0) {
-		throw result.errors[0];
+	try {
+		return traceur.compile(str, options);
+	} catch (errs) {
+		throw errs.join('\n');
 	}
-
-	return result.js;
 };
 
 module.exports = TraceurFilter;
