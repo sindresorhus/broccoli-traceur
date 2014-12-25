@@ -38,8 +38,8 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "object-assign": "^1.0.0",
-    "traceur": "0.0.74"
+    "object-assign": "^2.0.0",
+    "traceur": "0.0.79"
   },
   "devDependencies": {
     "broccoli": "^0.13.2",
