@@ -8,7 +8,7 @@
 ## Install
 
 ```sh
-$ npm install --save broccoli-traceur
+$ npm install --save-dev broccoli-traceur
 ```
 
 
