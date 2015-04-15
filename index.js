@@ -1,7 +1,6 @@
 'use strict';
 var Filter = require('broccoli-filter');
 var traceur = require('traceur');
-var objectAssign = require('object-assign');
 
 function TraceurFilter(inputTree, options) {
 	if (!(this instanceof TraceurFilter)) {
@@ -19,10 +18,8 @@ TraceurFilter.prototype.extensions = ['js'];
 TraceurFilter.prototype.targetExtension = 'js';
 
 TraceurFilter.prototype.processString = function (str, relativePath) {
-	var options = objectAssign({}, this.options, {filename: relativePath});
-
 	try {
-		return traceur.compile(str, options);
+		return traceur.compile(str, this.options, relativePath);
 	} catch (errs) {
 		throw errs.join('\n');
 	}
