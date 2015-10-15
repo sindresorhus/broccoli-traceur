@@ -37,11 +37,11 @@
     "transpiler"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
+    "broccoli-filter": "^1.2.2",
     "traceur": "~0.0.88"
   },
   "devDependencies": {
-    "broccoli": "^0.13.2",
+    "broccoli": "^0.16.8",
     "mocha": "*"
   }
 }

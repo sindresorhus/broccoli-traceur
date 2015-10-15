@@ -7,6 +7,8 @@ function TraceurFilter(inputTree, options) {
 		return new TraceurFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }
