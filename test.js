@@ -5,7 +5,7 @@ var path = require('path');
 var broccoli = require('broccoli');
 var traceur = require('./');
 
-it('should transpile ES6 to ES5', function () {
+it('should transpile ES2015 to ES5', function () {
 	var builder = new broccoli.Builder(traceur('fixture/success'));
 	return builder.build().then(function(dir) {
 		var content = fs.readFileSync(path.join(dir.directory, 'fixture.js'), 'utf8');
@@ -13,7 +13,7 @@ it('should transpile ES6 to ES5', function () {
 	});
 });
 
-it('complains if ES6 is invalid', function () {
+it('complains if ES2015 is invalid', function () {
 	var builder = new broccoli.Builder(traceur('fixture/error'));
 	return builder.build().then(function () {
 		assert(false, 'should fail');
