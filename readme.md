@@ -1,3 +1,9 @@
+# Deprecated
+
+Deprecated as Traceur is unmaintained. Check out [`broccoli-babel-transpiler`](https://github.com/babel/broccoli-babel-transpiler) instead.
+
+---
+
 # [broccoli](https://github.com/joliss/broccoli)-traceur [![Build Status](https://travis-ci.org/sindresorhus/broccoli-traceur.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-traceur)
 
 > [`Traceur`](https://github.com/google/traceur-compiler) is a JavaScript.next to JavaScript-of-today compiler
